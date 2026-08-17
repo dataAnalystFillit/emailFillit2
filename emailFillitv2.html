@@ -1,36 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="color-scheme" content="light" />
+  <meta name="supported-color-schemes" content="light" />
+  <title>FILLIT</title>
+  <style>
+    body, table, td { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    img { -ms-interpolation-mode: bicubic; }
+    body { margin: 0; padding: 0; width: 100% !important; }
+
+    /* Force footer banner text/background to survive client auto dark/light re-theming (e.g. Gmail Android) */
+    .fb-text { background-color: #A52D37 !important; color: #ffffff !important; }
+
+    @media only screen and (max-width: 600px) {
+      .email-container { width: 100% !important; }
+      .body-padding { padding: 20px 18px 12px 18px !important; }
+      .stack-column { display: block !important; width: 100% !important; text-align: center !important; padding: 0 0 14px 0 !important; }
+      .stack-column.footer-right { padding-bottom: 0 !important; text-align: center !important; }
+      .phone-number { font-size: 40px !important; }
+      .hero-title { font-size: 24px !important; }
+      .hero-spacer { padding-bottom: 190px !important; }
+      .hero-logo { width: 90px !important; }
+    }
+    @media only screen and (max-width: 400px) {
+      .phone-number { font-size: 32px !important; }
+      .hero-spacer { padding-bottom: 150px !important; }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+
   <!-- Outer Background Container -->
   <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f4f4f4; padding: 20px 0;">
     <tr>
       <td align="center">
 
         <!-- Main Email Card Container (600px max width) -->
-        <table border="0" cellpadding="0" cellspacing="0" width="600" style="width: 100%; max-width: 600px; background-color: #ffffff; border-collapse: collapse; font-family: 'Poppins', Arial, Helvetica, sans-serif;">
+        <table class="email-container" border="0" cellpadding="0" cellspacing="0" width="600" style="width: 100%; max-width: 600px; background-color: #ffffff; border-collapse: collapse; font-family: 'Poppins', Arial, Helvetica, sans-serif;">
 
-          <!-- HERO IMAGE SECTION (background photo + layered overlays) -->
+          <!-- HERO IMAGE SECTION (background photo + logo/headline overlay) -->
           <tr>
-            <td align="center" style="padding: 0;">
-              <div style="position: relative; width: 100%; max-width: 600px; line-height: 0; font-size: 0;">
+            <td align="center" bgcolor="#A52D37" style="background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 20px 25px 0 25px;">
 
-                <!-- Background truck photo -->
-                <img src="https://github.com/dataAnalystFillit/emailHTML1/blob/main/hero.png?raw=true" alt="FILLIT - Your Trusted Diesel Supply Partner" width="600" style="width: 100%; max-width: 600px; height: auto; display: block; border: 0; outline: none; text-decoration: none;" />
+              <!-- Logo (left) + Email (right) -->
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="left" valign="middle">
+                    <img class="hero-logo" src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/logo.png?raw=true" alt="FILLIT - Reimagine Fuelling" width="110" style="display: block; border: 0; outline: none; width: 110px; height: auto;" />
+                  </td>
+                  <td align="right" valign="middle">
+                    <a href="mailto:info@fillit.co" style="color: #ffffff; font-size: 14px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; text-decoration: none;">info@fillit.co</a>
+                  </td>
+                </tr>
+              </table>
 
-              </div>
+              <!-- Headline -->
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 20px;">
+                <tr>
+                  <td class="hero-spacer" align="center" style="padding-bottom: 260px;">
+                    <h1 class="hero-title" style="margin: 0; font-size: 30px; line-height: 1.25; color: #ffffff; font-weight: 700; font-family: Arial, Helvetica, sans-serif;">Your Trusted Diesel<br />Supply Partner</h1>
+                  </td>
+                </tr>
+              </table>
+
             </td>
           </tr>
 
           <!-- MAIN BODY CONTENT -->
           <tr>
-            <td style="padding: 30px 25px 15px 25px; color: #333333; font-family: Arial, Helvetica, sans-serif;">
+            <td class="body-padding" style="padding: 30px 25px 15px 25px; color: #333333; font-family: Arial, Helvetica, sans-serif;">
 
               <!-- Greetings -->
               <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.5; font-weight: normal; color: #333333;">
                 Greetings,
               </p>
               <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.5; color: #333333;">
-                We provide on-demand diesel delivery for industries and fleets, ensuring uninterrupted operations with fast and reliable fuel whenever you need it. Our trusted fuel suppliers include <strong style="color: #A52D37;">ADNOC and Emarat</strong>.
+                We provide on-demand diesel delivery for industries and fleets, ensuring uninterrupted operations with fast and reliable fuel whenever you need it. We believe in superior quality diesel only, hence our trusted fuel suppliers include <strong style="color: #A52D37;">ADNOC and Emarat.</strong>
               </p>
               <p style="margin: 0 0 25px 0; font-size: 15px; line-height: 1.5; color: #333333;">
-                With FILLIT, we bring the pump to you – anytime, anywhere
+                With FILLIT, we bring the pump to you<br />
+                - anytime, anywhere
               </p>
 
               <!-- FEATURES LIST TABLE -->
@@ -39,12 +91,12 @@
                 <!-- Feature 1 -->
                 <tr>
                   <td width="55" valign="top" style="padding-bottom: 20px;">
-                    <img src="https://github.com/dataAnalystFillit/emailHTML1/blob/main/icon-generator.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px;" />
+                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/tech.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px;" />
                   </td>
                   <td valign="top" style="padding-bottom: 20px; padding-left: 10px;">
-                    <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">Bulk Diesel Supply</h3>
+                    <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">Advanced Technology</h3>
                     <p style="margin: 0; font-size: 13px; line-height: 1.4; color: #555555;">
-                      We provide dependable bulk diesel deliveries tailored to business needs, ensuring uninterrupted operations.
+                      Leveraging cutting-edge technology, we ensure seamless order placement, real-time tracking, and efficient delivery.
                     </p>
                   </td>
                 </tr>
@@ -52,7 +104,7 @@
                 <!-- Feature 2 -->
                 <tr>
                   <td width="55" valign="top" style="padding-bottom: 20px;">
-                    <img src="https://github.com/dataAnalystFillit/emailHTML1/blob/main/icon-tanker.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px;" />
+                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-tanker.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px;" />
                   </td>
                   <td valign="top" style="padding-bottom: 20px; padding-left: 10px;">
                     <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">On-Site Fuel Delivery</h3>
@@ -65,7 +117,7 @@
                 <!-- Feature 3 -->
                 <tr>
                   <td width="55" valign="top" style="padding-bottom: 20px;">
-                    <img src="https://github.com/dataAnalystFillit/emailHTML1/blob/main/icon-fleet.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px;" />
+                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-fleet.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px;" />
                   </td>
                   <td valign="top" style="padding-bottom: 20px; padding-left: 10px;">
                     <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">Fleet Fuelling Solutions</h3>
@@ -97,7 +149,7 @@
               <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <!-- Left: WhatsApp / Phone Icons & Number -->
-                  <td align="left" valign="middle">
+                  <td class="stack-column fb-text" align="left" valign="middle" style="background-color: #A52D37;">
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <!-- Icon box: WhatsApp + Phone, bordered, divided -->
@@ -107,41 +159,41 @@
                               <!-- WHATSAPP ICON IMAGE -->
                               <td style="padding: 8px 10px; border-right: 1px solid rgba(255,255,255,0.55);">
                                 <a href="https://wa.me/971800345548" target="_blank" style="text-decoration: none; display: block;">
-                                  <img src="https://github.com/dataAnalystFillit/emailHTML1/blob/main/wa.png?raw=true" alt="WhatsApp" width="20" height="20" style="display: block; border: 0; outline: none; width: 20px; height: 20px;" />
+                                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/wa.png?raw=true" alt="WhatsApp" width="20" height="20" style="display: block; border: 0; outline: none; width: 20px; height: 20px;" />
                                 </a>
                               </td>
                               <!-- PHONE ICON IMAGE -->
                               <td style="padding: 8px 10px;">
                                 <a href="tel:800345548" style="text-decoration: none; display: block;">
-                                  <img src="https://github.com/dataAnalystFillit/emailHTML1/blob/main/phone.png?raw=true" alt="Phone" width="20" height="20" style="display: block; border: 0; outline: none; width: 20px; height: 20px;" />
+                                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/phone.png?raw=true" alt="Phone" width="20" height="20" style="display: block; border: 0; outline: none; width: 20px; height: 20px;" />
                                 </a>
                               </td>
                             </tr>
                           </table>
                         </td>
                         <!-- Phone Number Display: 800 + FILLIT/keypad-digits grid -->
-                        <td style="padding-left: 4px;">
-                          <a href="tel:800345548" style="color: #ffffff; text-decoration: none;">
+                        <td class="fb-text" style="padding-left: 4px; background-color: #A52D37;">
+                          <a href="tel:800345548" class="fb-text" style="color: #ffffff; background-color: #A52D37; text-decoration: none;">
                             <table border="0" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td valign="middle" style="font-size: 58px; font-weight: 600; line-height: 1; letter-spacing: -0.5px; color: #ffffff; padding-right: 8px;">800</td>
-                                <td valign="middle">
+                                <td class="phone-number fb-text" valign="middle" style="font-size: 58px; font-weight: 600; line-height: 1; letter-spacing: -0.5px; color: #ffffff; background-color: #A52D37; padding-right: 8px;">800</td>
+                                <td class="fb-text" valign="middle" style="background-color: #A52D37;">
                                   <table border="0" cellpadding="0" cellspacing="0">
                                     <tr>
-                                      <td align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff;">F</td>
-                                      <td align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff;">I</td>
-                                      <td align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff;">L</td>
-                                      <td align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff;">L</td>
-                                      <td align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff;">I</td>
-                                      <td align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff;">T</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">F</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">I</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">L</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">L</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">I</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 17px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">T</td>
                                     </tr>
                                     <tr>
-                                      <td align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff;">3</td>
-                                      <td align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff;">4</td>
-                                      <td align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff;">5</td>
-                                      <td align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff;">5</td>
-                                      <td align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff;">4</td>
-                                      <td align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff;">8</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">3</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">4</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">5</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">5</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">4</td>
+                                      <td class="fb-text" align="center" width="9" style="font-size: 22px; font-weight: 700; line-height: 1; color: #ffffff; background-color: #A52D37;">8</td>
                                     </tr>
                                   </table>
                                 </td>
@@ -154,8 +206,8 @@
                   </td>
 
                   <!-- Right: CTA Partner + Email Pill -->
-                  <td align="right" valign="middle">
-                    <p style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff; font-weight: bold;">
+                  <td class="stack-column footer-right fb-text" align="right" valign="middle" style="background-color: #A52D37;">
+                    <p class="fb-text" style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff; background-color: #A52D37; font-weight: bold;">
                       Partner with FILLIT today
                     </p>
                     <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 16px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block;">
@@ -173,3 +225,6 @@
       </td>
     </tr>
   </table>
+
+</body>
+</html>
