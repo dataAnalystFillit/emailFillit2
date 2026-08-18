@@ -154,7 +154,7 @@
                             <tr>
                               <td valign="middle" style="font-size: 58px; font-weight: 600; line-height: 1; letter-spacing: -0.5px; color: #ffffff !important; background-color: #A52D37 !important; padding-right: 8px; white-space: nowrap;">800</td>
                               <td valign="middle" style="background-color: #A52D37 !important; white-space: nowrap;">
-                                <div style="font-size: 17px; font-weight: 700; line-height: 1.35; letter-spacing: 3px; color: #ffffff !important; background-color: #A52D37 !important; font-family: Arial, Helvetica, sans-serif; white-space: nowrap;">FILLIT</div>
+                                <div style="font-size: 22px; font-weight: 700; line-height: 1.35; letter-spacing: 3px; color: #ffffff !important; background-color: #A52D37 !important; font-family: Arial, Helvetica, sans-serif; white-space: nowrap;">FILLIT</div>
                                 <div style="font-size: 22px; font-weight: 700; line-height: 1.35; letter-spacing: 2px; color: #ffffff !important; background-color: #A52D37 !important; font-family: Arial, Helvetica, sans-serif; white-space: nowrap;">345548</div>
                               </td>
                             </tr>
@@ -167,7 +167,7 @@
 
                 <!-- Right: CTA Partner + Email Pill -->
                 <td align="right" valign="middle" style="background-color: #A52D37 !important;">
-                  <p style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff !important; background-color: #A52D37 !important; font-weight: bold;">
+                  <p style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff !important; background-color: #A52D37 !important; font-weight: bold; white-space: nowrap;">
                     Partner with FILLIT today
                   </p>
                   <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 16px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block; white-space: nowrap;">
