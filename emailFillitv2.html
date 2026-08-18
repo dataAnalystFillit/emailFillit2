@@ -14,6 +14,7 @@
 
     /* Force footer banner text/background to survive client auto dark/light re-theming (e.g. Gmail Android) */
     .fb-text { background-color: #A52D37 !important; color: #ffffff !important; }
+    .hero-bg { background-color: #A52D37 !important; }
 
     @media only screen and (max-width: 600px) {
       .email-container { width: 100% !important; }
@@ -43,16 +44,13 @@
 
           <!-- HERO IMAGE SECTION (background photo + logo/headline overlay) -->
           <tr>
-            <td align="center" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" style="position: relative; background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 0;">
+            <td class="hero-bg" align="center" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" style="background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 20px 25px 0 25px;">
               <!--[if gte mso 9]>
               <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:420px;">
                 <v:fill type="frame" src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" color="#A52D37" />
                 <v:textbox inset="0,0,0,0">
               <![endif]-->
-              <!--[if !mso]><!-->
-              <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" alt="" width="600" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block; border: 0; outline: none; z-index: 0;" />
-              <!--<![endif]-->
-              <div style="position: relative; z-index: 1; padding: 20px 25px 0 25px;">
+              <div>
 
               <!-- Logo (left) + Email (right) -->
               <table border="0" cellpadding="0" cellspacing="0" width="100%">
