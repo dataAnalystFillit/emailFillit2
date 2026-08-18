@@ -20,6 +20,8 @@
       .body-padding { padding: 20px 18px 0 18px !important; }
       .stack-column { display: block !important; width: 100% !important; text-align: center !important; padding: 0 0 14px 0 !important; }
       .stack-column.footer-right { padding-bottom: 0 !important; text-align: center !important; }
+      .pump-top-spacer { display: none !important; }
+      .pump-top-cell { display: block !important; width: 100% !important; }
       .phone-number { font-size: 40px !important; }
       .hero-title { font-size: 24px !important; }
       .hero-spacer { padding-bottom: 190px !important; }
@@ -140,12 +142,14 @@
                 </tr>
               </table>
 
-              <!-- PUMP GRAPHIC (top slice) - sits directly above the footer seam, in normal flow -->
+              <!-- PUMP GRAPHIC (top slice) - sits directly above the footer seam; the 245px spacer accounts for this cell's 25px left padding vs. the footer cell's 20px, so the pump column lines up with the footer's below -->
               <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 6px;">
                 <tr>
-                  <td align="right" style="padding: 0 70px 0 0;">
-                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/pump-top.png?raw=true" alt="" width="140" height="82" style="display: block; border: 0; outline: none; width: 140px; height: 82px;" />
+                  <td class="pump-top-spacer" width="270" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                  <td class="pump-top-cell" align="center" width="110">
+                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/pump-top.png?raw=true" alt="" width="110" height="64" style="display: block; border: 0; outline: none; width: 110px; height: 64px; margin: 0 auto;" />
                   </td>
+                  <td class="pump-top-spacer" style="font-size: 0; line-height: 0;">&nbsp;</td>
                 </tr>
               </table>
 
@@ -159,7 +163,7 @@
               <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <!-- Left: WhatsApp / Phone Icons & Number -->
-                  <td class="stack-column fb-text" align="left" valign="bottom" style="background-color: #A52D37;">
+                  <td class="stack-column fb-text" align="left" valign="bottom" width="250" style="background-color: #A52D37;">
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <!-- Icon box: WhatsApp + Phone, bordered, divided -->
@@ -216,13 +220,13 @@
                   </td>
 
                   <!-- Middle: Pump Graphic (bottom slice) - shares this row with the phone block and partner text so valign="bottom" locks its base to the same bottom line as both, instead of floating above them -->
-                  <td class="stack-column fb-text" align="center" valign="bottom" width="140" style="background-color: #A52D37;">
-                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/pump-bottom.png?raw=true" alt="" width="140" height="82" style="display: block; border: 0; outline: none; width: 140px; height: 82px; margin: 0 auto;" />
+                  <td class="stack-column fb-text" align="center" valign="bottom" width="110" style="background-color: #A52D37;">
+                    <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/pump-bottom.png?raw=true" alt="" width="110" height="64" style="display: block; border: 0; outline: none; width: 110px; height: 64px; margin: 0 auto;" />
                   </td>
 
                   <!-- Right: CTA Partner + Email Pill -->
                   <td class="stack-column footer-right fb-text" align="right" valign="bottom" style="background-color: #A52D37;">
-                    <p class="fb-text" style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff; background-color: #A52D37; font-weight: bold;">
+                    <p class="fb-text" style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff; background-color: #A52D37; font-weight: bold; white-space: nowrap;">
                       Partner with FILLIT today
                     </p>
                     <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 16px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block;">
