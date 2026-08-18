@@ -1,0 +1,187 @@
+<!-- Outer Background Container -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f4f4f4; padding: 20px 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+  <tr>
+    <td align="center">
+
+      <!-- Main Email Card Container (600px max width) -->
+      <table border="0" cellpadding="0" cellspacing="0" width="600" style="width: 100%; max-width: 600px; background-color: #ffffff; border-collapse: collapse; font-family: 'Poppins', Arial, Helvetica, sans-serif;">
+
+        <!-- HERO IMAGE SECTION (background photo + logo/headline overlay) -->
+        <tr>
+          <td align="center" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" style="background-color: #A52D37 !important; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 20px 25px 0 25px;">
+            <!--[if gte mso 9]>
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:420px;">
+              <v:fill type="frame" src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" color="#A52D37" />
+              <v:textbox inset="0,0,0,0">
+            <![endif]-->
+            <div>
+
+            <!-- Logo (left) + Email (right) -->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr>
+                <td align="left" valign="middle">
+                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/logo.png?raw=true" alt="FILLIT - Reimagine Fuelling" width="110" style="display: block; border: 0; outline: none; width: 110px; height: auto; -ms-interpolation-mode: bicubic;" />
+                </td>
+                <td align="right" valign="middle">
+                  <a href="mailto:info@fillit.co" style="color: #ffffff; font-size: 14px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; text-decoration: none;">info@fillit.co</a>
+                </td>
+              </tr>
+            </table>
+
+            <!-- Headline -->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 20px;">
+              <tr>
+                <td align="center" style="padding-bottom: 260px;">
+                  <h1 style="margin: 0; font-size: 30px; line-height: 1.25; color: #ffffff; font-weight: 700; font-family: Arial, Helvetica, sans-serif;">Your Trusted Diesel<br />Supply Partner</h1>
+                </td>
+              </tr>
+            </table>
+
+            </div>
+            <!--[if gte mso 9]>
+              </v:textbox>
+            </v:rect>
+            <![endif]-->
+          </td>
+        </tr>
+
+        <!-- MAIN BODY CONTENT -->
+        <tr>
+          <td style="padding: 30px 25px 15px 25px; color: #333333; font-family: Arial, Helvetica, sans-serif;">
+
+            <!-- Greetings -->
+            <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.5; font-weight: normal; color: #333333;">
+              Greetings,
+            </p>
+            <p style="margin: 0 0 12px 0; font-size: 15px; line-height: 1.5; color: #333333;">
+              We provide on-demand diesel delivery for industries and fleets, ensuring uninterrupted operations with fast and reliable fuel whenever you need it. We believe in superior quality diesel only, hence our trusted fuel suppliers include <strong style="color: #A52D37;">ADNOC and Emarat.</strong>
+            </p>
+            <p style="margin: 0 0 25px 0; font-size: 15px; line-height: 1.5; color: #333333;">
+              With FILLIT, we bring the pump to you<br />
+              - anytime, anywhere
+            </p>
+
+            <!-- FEATURES LIST TABLE -->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+
+              <!-- Feature 1 -->
+              <tr>
+                <td width="55" valign="top" style="padding-bottom: 20px;">
+                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/tech.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px; -ms-interpolation-mode: bicubic;" />
+                </td>
+                <td valign="top" style="padding-bottom: 20px; padding-left: 10px;">
+                  <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">Advanced Technology</h3>
+                  <p style="margin: 0; font-size: 13px; line-height: 1.4; color: #555555;">
+                    Leveraging cutting-edge technology, we ensure seamless order placement, real-time tracking, and efficient delivery.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Feature 2 -->
+              <tr>
+                <td width="55" valign="top" style="padding-bottom: 20px;">
+                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-tanker.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px; -ms-interpolation-mode: bicubic;" />
+                </td>
+                <td valign="top" style="padding-bottom: 20px; padding-left: 10px;">
+                  <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">On-Site Fuel Delivery</h3>
+                  <p style="margin: 0; font-size: 13px; line-height: 1.4; color: #555555;">
+                    Efficient and timely delivery directly to job sites, factories, and remote locations.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Feature 3 -->
+              <tr>
+                <td width="55" valign="top" style="padding-bottom: 20px;">
+                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-fleet.png?raw=true" width="44" height="44" alt="" style="display: block; border: 0; outline: none; border-radius: 8px; -ms-interpolation-mode: bicubic;" />
+                </td>
+                <td valign="top" style="padding-bottom: 20px; padding-left: 10px;">
+                  <h3 style="margin: 0 0 4px 0; font-size: 16px; color: #A52D37; font-weight: bold;">Fleet Fuelling Solutions</h3>
+                  <p style="margin: 0; font-size: 13px; line-height: 1.4; color: #555555;">
+                    Custom fuelling programs designed to minimize downtime and optimize operational costs.
+                  </p>
+                </td>
+              </tr>
+
+            </table>
+
+            <!-- ENQUIRE NOW BUTTON -->
+            <table border="0" cellpadding="0" cellspacing="0" style="margin-top: 10px; margin-bottom: 10px;">
+              <tr>
+                <td align="center" bgcolor="#A52D37" style="border-radius: 20px;">
+                  <a href="https://fillit.co/contact" target="_blank" style="font-size: 16px; font-family: 'Poppins', Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 20px; padding: 12px 30px; border: 1px solid #A52D37; display: inline-block; font-weight: 700;">
+                    Enquire Now
+                  </a>
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+
+        <!-- FOOTER CONTACT BANNER (rounded top corners only, per reference) -->
+        <tr>
+          <td bgcolor="#A52D37" style="background-color: #A52D37 !important; padding: 18px 20px; border-top-left-radius: 18px; border-top-right-radius: 18px;">
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+              <tr>
+                <!-- Left: WhatsApp / Phone Icons & Number -->
+                <td align="left" valign="middle" style="background-color: #A52D37 !important;">
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <!-- Icon box: WhatsApp + Phone, bordered, divided -->
+                      <td style="padding-right: 12px;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border: 1px solid rgba(255,255,255,0.55); border-radius: 8px;">
+                          <tr>
+                            <!-- WHATSAPP ICON IMAGE -->
+                            <td style="padding: 8px 10px; border-right: 1px solid rgba(255,255,255,0.55);">
+                              <a href="https://wa.me/971800345548" target="_blank" style="text-decoration: none; display: block;">
+                                <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/wa.png?raw=true" alt="WhatsApp" width="20" height="20" style="display: block; border: 0; outline: none; width: 20px; height: 20px; -ms-interpolation-mode: bicubic;" />
+                              </a>
+                            </td>
+                            <!-- PHONE ICON IMAGE -->
+                            <td style="padding: 8px 10px;">
+                              <a href="tel:800345548" style="text-decoration: none; display: block;">
+                                <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/phone.png?raw=true" alt="Phone" width="20" height="20" style="display: block; border: 0; outline: none; width: 20px; height: 20px; -ms-interpolation-mode: bicubic;" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <!-- Phone Number Display: 800 + FILLIT/keypad-digits -->
+                      <td style="padding-left: 4px; background-color: #A52D37 !important;">
+                        <a href="tel:800345548" style="color: #ffffff !important; background-color: #A52D37 !important; text-decoration: none;">
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                            <tr>
+                              <td valign="middle" style="font-size: 58px; font-weight: 600; line-height: 1; letter-spacing: -0.5px; color: #ffffff !important; background-color: #A52D37 !important; padding-right: 8px; white-space: nowrap;">800</td>
+                              <td valign="middle" style="background-color: #A52D37 !important; white-space: nowrap;">
+                                <div style="font-size: 17px; font-weight: 700; line-height: 1.35; letter-spacing: 3px; color: #ffffff !important; background-color: #A52D37 !important; font-family: Arial, Helvetica, sans-serif; white-space: nowrap;">FILLIT</div>
+                                <div style="font-size: 22px; font-weight: 700; line-height: 1.35; letter-spacing: 2px; color: #ffffff !important; background-color: #A52D37 !important; font-family: Arial, Helvetica, sans-serif; white-space: nowrap;">345548</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <!-- Right: CTA Partner + Email Pill -->
+                <td align="right" valign="middle" style="background-color: #A52D37 !important;">
+                  <p style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff !important; background-color: #A52D37 !important; font-weight: bold;">
+                    Partner with FILLIT today
+                  </p>
+                  <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 16px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block; white-space: nowrap;">
+                    Email: info@fillit.co
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+      <!-- End Main Email Container -->
+
+    </td>
+  </tr>
+</table>
