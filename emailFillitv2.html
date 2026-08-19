@@ -166,10 +166,11 @@
             </td>
           </tr>
 
-          <!-- FOOTER BAR 2: "Partner with FILLIT today" as live text again, held white by
-               inline color:#ffffff !important on the cell, the paragraph and an inner span.
-               Being text it wraps instead of overflowing on a narrow card, and the 14px
-               padding-right keeps it clear of the email pill. -->
+          <!-- FOOTER BAR 2: both the CTA line and the email pill are images, so no dark-mode
+               engine can re-colour them. Both are FIXED width, never percentage, so they render at
+               exactly the same legible size on every device instead of shrinking with the card.
+               The CTA is split over two lines to buy that: 79 + 14 gap + 140 = 233px, which still
+               leaves 47px spare inside a 320px-wide card. -->
           <tr>
             <td>
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="width: 100%; background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-top-left-radius: 18px; border-top-right-radius: 18px;">
@@ -177,14 +178,12 @@
                   <td style="padding: 14px 20px;">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                       <tr>
-                        <td align="left" valign="middle" style="padding-right: 14px; color: #ffffff;">
-                          <p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif;">
-                            <span style="color: #ffffff;">Partner with FILLIT today</span>
-                          </p>
+                        <td align="left" valign="middle" style="padding-right: 14px;">
+                          <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/cta-partner.png?raw=true" alt="Partner with FILLIT today" width="79" height="36" style="display: block; border: 0; outline: none; width: 79px; height: 36px; color: #ffffff; font-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                         </td>
                         <td align="right" valign="middle">
-                          <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 9px 10px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 13px; display: inline-block; white-space: nowrap;">
-                            Email: info@fillit.co
+                          <a href="mailto:info@fillit.co" style="text-decoration: none;">
+                            <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/pill-email.png?raw=true" alt="Email: info@fillit.co" width="140" height="34" style="display: block; border: 0; outline: none; width: 140px; height: 34px; color: #ffffff; font-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                           </a>
                         </td>
                       </tr>
