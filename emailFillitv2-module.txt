@@ -93,33 +93,36 @@
           </td>
         </tr>
 
-        <!-- FOOTER CONTACT BANNER (rounded top corners only, per reference) -->
+        <!-- FOOTER BAR 1: contact icons (left third) + phone number (right two thirds).
+             Every piece is a percentage-width image, so the bar scales fluidly at any card
+             width and no dark-mode engine can re-colour it. The icon box and the number are
+             drawn at aspect ratios that make them exactly the same height at every width. -->
         <tr>
-          <td bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="background-color: #A52D37 !important; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; padding: 18px 20px; border-top-left-radius: 18px; border-top-right-radius: 18px;">
-            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+          <td style="padding: 0 0 8px 0;">
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="width: 100%; background-color: #A52D37 !important; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-radius: 18px;">
               <tr>
-                <!-- LEFT 52%: icon box + phone number as fluid images (width="100%").
-                     They shrink with the card on narrow screens instead of wrapping, and
-                     because they are images no mail client can re-colour them in dark mode. -->
-                <td width="52%" align="left" valign="middle" style="width: 52%;">
+                <td style="padding: 14px 20px;">
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                     <tr>
-                      <!-- WhatsApp (left half of the bordered icon box) -->
-                      <td width="14%" valign="middle" style="width: 14%;">
-                        <a href="https://wa.me/971800345548" target="_blank" style="text-decoration: none;">
-                          <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-wa.png?raw=true" alt="WhatsApp" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
-                        </a>
-                      </td>
-                      <!-- Phone (right half of the bordered icon box) -->
-                      <td width="14%" valign="middle" style="width: 14%;">
-                        <a href="tel:800345548" style="text-decoration: none;">
-                          <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-tel.png?raw=true" alt="Call" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
-                        </a>
+                      <td width="32%" valign="middle" style="width: 32%;">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
+                          <tr>
+                            <td width="50%" valign="middle" style="width: 50%;">
+                              <a href="https://wa.me/971800345548" target="_blank" style="text-decoration: none;">
+                                <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-wa.png?raw=true" alt="WhatsApp" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
+                              </a>
+                            </td>
+                            <td width="50%" valign="middle" style="width: 50%;">
+                              <a href="tel:800345548" style="text-decoration: none;">
+                                <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/icon-tel.png?raw=true" alt="Call" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                       <!-- gap -->
-                      <td width="4%" style="width: 4%; font-size: 1px; line-height: 1px;">&nbsp;</td>
-                      <!-- 800 FILLIT / 345548 -->
-                      <td width="68%" valign="middle" style="width: 68%;">
+                      <td width="2%" style="width: 2%; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                      <td width="66%" valign="middle" style="width: 66%;">
                         <a href="tel:800345548" style="text-decoration: none;">
                           <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/phone-number.png?raw=true" alt="800 FILLIT (345548)" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto; color: #ffffff !important; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                         </a>
@@ -127,29 +130,32 @@
                     </tr>
                   </table>
                 </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
 
-                <!-- RIGHT 48%: CTA Partner + Email Pill. The "Partner with FILLIT today" line is an
-                     image for the same reason as the button -- white text no dark-mode engine can darken.
-                     Fixed at 131px so it always fits inside 48% of the card, even on a 320px-wide phone. -->
-                <td width="48%" align="right" valign="middle" style="width: 48%;">
-                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse: collapse;">
+        <!-- FOOTER BAR 2: "Partner with / FILLIT today" (two lines, 20px, as an image so the
+             white cannot be darkened) on the left, live email pill on the right. Both are
+             fixed width: 119px + 140px + gap fits inside a 320px-wide card. -->
+        <tr>
+          <td>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="width: 100%; background-color: #A52D37 !important; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-top-left-radius: 18px; border-top-right-radius: 18px;">
+              <tr>
+                <td style="padding: 14px 20px;">
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                     <tr>
-                      <td align="right" style="padding: 0 0 8px 0;">
-                        <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/cta-partner.png?raw=true" alt="Partner with FILLIT today" width="131" height="16" style="display: block; border: 0; outline: none; width: 131px; height: 16px; color: #ffffff !important; font-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+                      <td align="left" valign="middle">
+                        <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/cta-partner.png?raw=true" alt="Partner with FILLIT today" width="119" height="52" style="display: block; border: 0; outline: none; width: 119px; height: 52px; color: #ffffff !important; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                       </td>
-                    </tr>
-                    <tr>
-                      <td align="right">
-                        <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 10px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block; white-space: nowrap;">
+                      <td align="right" valign="middle">
+                        <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 9px 10px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 13px; display: inline-block; white-space: nowrap;">
                           Email: info@fillit.co
                         </a>
                       </td>
                     </tr>
                   </table>
                 </td>
-                                  </tr>
-                                </table>
-                              </td>
               </tr>
             </table>
           </td>
