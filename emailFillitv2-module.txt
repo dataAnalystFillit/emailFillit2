@@ -135,9 +135,10 @@
           </td>
         </tr>
 
-        <!-- FOOTER BAR 2: "Partner with / FILLIT today" (two lines, 20px, as an image so the
-             white cannot be darkened) on the left, live email pill on the right. Both are
-             fixed width: 119px + 140px + gap fits inside a 320px-wide card. -->
+        <!-- FOOTER BAR 2: "Partner with FILLIT today" as live text again, held white by
+             inline color:#ffffff !important on the cell, the paragraph and an inner span.
+             Being text it wraps instead of overflowing on a narrow card, and the 14px
+             padding-right keeps it clear of the email pill. -->
         <tr>
           <td>
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="width: 100%; background-color: #A52D37 !important; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-top-left-radius: 18px; border-top-right-radius: 18px;">
@@ -145,8 +146,10 @@
                 <td style="padding: 14px 20px;">
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                     <tr>
-                      <td align="left" valign="middle">
-                        <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/cta-partner.png?raw=true" alt="Partner with FILLIT today" width="119" height="52" style="display: block; border: 0; outline: none; width: 119px; height: 52px; color: #ffffff !important; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+                      <td align="left" valign="middle" style="padding-right: 14px; color: #ffffff !important;">
+                        <p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: bold; color: #ffffff !important; font-family: Arial, Helvetica, sans-serif;">
+                          <span style="color: #ffffff !important;">Partner with FILLIT today</span>
+                        </p>
                       </td>
                       <td align="right" valign="middle">
                         <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 9px 10px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 13px; display: inline-block; white-space: nowrap;">
