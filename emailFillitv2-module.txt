@@ -6,42 +6,12 @@
       <!-- Main Email Card Container (600px max width) -->
       <table border="0" cellpadding="0" cellspacing="0" width="600" style="width: 100%; max-width: 600px; background-color: #ffffff; border-collapse: collapse; font-family: 'Poppins', Arial, Helvetica, sans-serif;">
 
-        <!-- HERO IMAGE SECTION (background photo + logo/headline overlay) -->
+        <!-- HERO IMAGE (one flat image: the logo, info@fillit.co and the headline
+             are baked into heroText.png, so nothing here can be re-flowed or re-coloured
+             by a mail client). width="100%" keeps it fluid at every screen size. -->
         <tr>
-          <td align="center" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" style="background-color: #A52D37 !important; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true'); background-repeat: no-repeat; background-position: center top; background-size: cover; padding: 20px 25px 0 25px;">
-            <!--[if gte mso 9]>
-            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:420px;">
-              <v:fill type="frame" src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/hero.jpeg?raw=true" color="#A52D37" />
-              <v:textbox inset="0,0,0,0">
-            <![endif]-->
-            <div>
-
-            <!-- Logo (left) + Email (right) -->
-            <table border="0" cellpadding="0" cellspacing="0" width="100%">
-              <tr>
-                <td align="left" valign="middle">
-                  <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/logo.png?raw=true" alt="FILLIT - Reimagine Fuelling" width="110" style="display: block; border: 0; outline: none; width: 110px; height: auto; -ms-interpolation-mode: bicubic;" />
-                </td>
-                <td align="right" valign="middle">
-                  <a href="mailto:info@fillit.co" style="color: #ffffff; font-size: 14px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; text-decoration: none;">info@fillit.co</a>
-                </td>
-              </tr>
-            </table>
-
-            <!-- Headline -->
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 20px;">
-              <tr>
-                <td align="center" style="padding-bottom: 260px;">
-                  <h1 style="margin: 0; font-size: 30px; line-height: 1.25; color: #ffffff; font-weight: 700; font-family: Arial, Helvetica, sans-serif;">Your Trusted Diesel<br />Supply Partner</h1>
-                </td>
-              </tr>
-            </table>
-
-            </div>
-            <!--[if gte mso 9]>
-              </v:textbox>
-            </v:rect>
-            <![endif]-->
+          <td align="center" bgcolor="#A52D37" style="background-color: #A52D37 !important; padding: 0;">
+            <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/heroText.png?raw=true" alt="FILLIT - Reimagine Fuelling. Your Trusted Diesel Supply Partner. info@fillit.co" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto; color: #ffffff !important; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
           </td>
         </tr>
 
