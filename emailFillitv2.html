@@ -12,11 +12,10 @@
     img { -ms-interpolation-mode: bicubic; }
     body { margin: 0; padding: 0; width: 100% !important; }
 
-    /* Keep brand text white when a client auto-re-themes for dark mode (e.g. Gmail app).
-       The maroon itself is now painted by a solid-colour background IMAGE (banner-bg.png)
-       rather than a CSS colour, because dark-mode engines re-colour CSS colours but never
-       images -- that is what stops the red washing out to pink. */
-    .fb-text { color: #ffffff !important; }
+    /* Dark-mode strategy: every brand-coloured surface and every piece of white-on-maroon
+       text is painted by an IMAGE, not by CSS. Dark-mode engines (notably the Gmail app)
+       re-colour CSS colours regardless of !important, but never touch image pixels -- that
+       is what keeps the red from washing out to pink and the labels from turning dark. */
 
     @media only screen and (max-width: 600px) {
       .email-container { width: 100% !important; }
@@ -107,12 +106,14 @@
 
               </table>
 
-              <!-- ENQUIRE NOW BUTTON -->
+              <!-- ENQUIRE NOW BUTTON (image: the white label cannot be re-coloured by a
+                   client's dark mode the way live text can. bgcolor stays as the blocked-image
+                   fallback, so the alt text still reads white-on-maroon.) -->
               <table border="0" cellpadding="0" cellspacing="0" style="margin-top: 10px; margin-bottom: 10px;">
                 <tr>
                   <td align="center" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-radius: 20px;">
-                    <a href="https://fillit.co/contact" target="_blank" style="font-size: 16px; font-family: 'Poppins', Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 20px; padding: 12px 30px; border: 1px solid #A52D37; display: inline-block; font-weight: 700;">
-                      Enquire Now
+                    <a href="https://fillit.co/contact" target="_blank" style="text-decoration: none;">
+                      <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/btn-enquire.png?raw=true" alt="Enquire Now" width="158" height="44" style="display: block; border: 0; outline: none; width: 158px; height: 44px; color: #ffffff; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                     </a>
                   </td>
                 </tr>
@@ -156,15 +157,28 @@
                     </table>
                   </td>
 
-                  <!-- RIGHT 48%: CTA Partner + Email Pill -->
-                  <td width="48%" class="fb-text" align="right" valign="middle" style="width: 48%;">
-                    <p class="fb-text" style="margin: 0 0 8px 0; font-size: 13px; color: #ffffff; font-weight: bold;">
-                      Partner with FILLIT today
-                    </p>
-                    <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 16px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block;">
-                      Email: info@fillit.co
-                    </a>
+                  <!-- RIGHT 48%: CTA Partner + Email Pill. The "Partner with FILLIT today" line is an
+                       image for the same reason as the button -- white text no dark-mode engine can darken.
+                       Fixed at 131px so it always fits inside 48% of the card, even on a 320px-wide phone. -->
+                  <td width="48%" align="right" valign="middle" style="width: 48%;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="right" style="border-collapse: collapse;">
+                      <tr>
+                        <td align="right" style="padding: 0 0 8px 0;">
+                          <img src="https://github.com/dataAnalystFillit/emailFillit2/blob/main/cta-partner.png?raw=true" alt="Partner with FILLIT today" width="131" height="16" style="display: block; border: 0; outline: none; width: 131px; height: 16px; color: #ffffff; font-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right">
+                          <a href="mailto:info@fillit.co" style="background-color: #ffffff; color: #A52D37; padding: 8px 16px; border-radius: 16px; text-decoration: none; font-weight: bold; font-size: 12px; display: inline-block;">
+                            Email: info@fillit.co
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
+                                      </tr>
+                                    </table>
+                                  </td>
                 </tr>
               </table>
             </td>
