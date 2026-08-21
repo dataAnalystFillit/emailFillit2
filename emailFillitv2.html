@@ -127,12 +127,15 @@
           <!-- FOOTER BAR 1: contact icons (left third) + phone number (right two thirds).
                Every piece is a percentage-width image, so the bar scales fluidly at any card
                width and no dark-mode engine can re-colour it. The icon box and the number are
-               drawn at aspect ratios that make them exactly the same height at every width. -->
+               drawn at aspect ratios that make them exactly the same height at every width.
+               The maroon tile and the corner radius live on the content <td>, NOT on the table:
+               Gmail honours a background image on a <td> but ignores it on a <table>, and with
+               no image painting, bgcolor is all that is left for dark mode to lighten to pink. -->
           <tr>
             <td style="padding: 0 0 8px 0;">
-              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="width: 100%; background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-radius: 18px;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                 <tr>
-                  <td style="padding: 14px 20px;">
+                  <td bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; padding: 14px 20px; border-radius: 18px;">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                       <tr>
                         <td width="32%" valign="middle" style="width: 32%;">
@@ -173,9 +176,9 @@
                leaves 47px spare inside a 320px-wide card. -->
           <tr>
             <td>
-              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="width: 100%; background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; border-top-left-radius: 18px; border-top-right-radius: 18px;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                 <tr>
-                  <td style="padding: 14px 20px;">
+                  <td bgcolor="#A52D37" background="https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true" style="background-color: #A52D37; background-image: url('https://github.com/dataAnalystFillit/emailFillit2/blob/main/banner-bg.png?raw=true'); background-repeat: repeat; padding: 14px 20px; border-top-left-radius: 18px; border-top-right-radius: 18px;">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100%;">
                       <tr>
                         <td align="left" valign="middle" style="padding-right: 14px;">
