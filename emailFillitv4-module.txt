@@ -11,7 +11,7 @@
              by a mail client). width="100%" keeps it fluid at every screen size. -->
         <tr>
           <td align="center" bgcolor="#A52D37" style="background-color: #A52D37 !important; padding: 0;">
-            <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/heroText.png" alt="FILLIT - Reimagine Fuelling. Your Trusted Diesel Supply Partner. info@fillit.co" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto; color: #ffffff !important; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+            <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/heroText.png" alt="FILLIT, Reimagine Fuelling: Your Trusted Diesel Supply Partner. Shown: the FILLIT fleet control dashboard and mobile app." width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto; color: #ffffff !important; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
           </td>
         </tr>
 
@@ -84,7 +84,7 @@
               <tr>
                 <td align="center">
                   <a href="https://fillit.co/contact" target="_blank" style="text-decoration: none;">
-                    <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/btn-enquire.png" alt="Enquire Now" width="158" height="44" style="display: block; border: 0; outline: none; width: 158px; height: 44px; color: #A52D37 !important; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+                    <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/btn-enquire.png" alt="Enquire now" width="158" height="44" style="display: block; border: 0; outline: none; width: 158px; height: 44px; color: #A52D37 !important; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                   </a>
                 </td>
               </tr>
@@ -112,12 +112,12 @@
                           <tr>
                             <td width="50%" valign="middle" style="width: 50%;">
                               <a href="https://wa.me/971800345548" target="_blank" style="text-decoration: none;">
-                                <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/icon-wa.png" alt="WhatsApp" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
+                                <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/icon-wa.png" alt="Message FILLIT on WhatsApp" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
                               </a>
                             </td>
                             <td width="50%" valign="middle" style="width: 50%;">
                               <a href="tel:800345548" style="text-decoration: none;">
-                                <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/icon-tel.png" alt="Call" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
+                                <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/icon-tel.png" alt="Call FILLIT on 800 345548" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto;" />
                               </a>
                             </td>
                           </tr>
@@ -127,7 +127,7 @@
                       <td width="2%" style="width: 2%; font-size: 1px; line-height: 1px;">&nbsp;</td>
                       <td width="66%" valign="middle" style="width: 66%;">
                         <a href="tel:800345548" style="text-decoration: none;">
-                          <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/phone-number.png" alt="800 FILLIT (345548)" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto; color: #ffffff !important; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+                          <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/phone-number.png" alt="Call 800 FILLIT, that is 800 345548" width="100%" style="display: block; border: 0; outline: none; width: 100%; height: auto; color: #ffffff !important; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                         </a>
                       </td>
                     </tr>
@@ -155,7 +155,7 @@
                       </td>
                       <td align="right" valign="middle">
                         <a href="mailto:info@fillit.co" style="text-decoration: none;">
-                          <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/pill-email.png" alt="Email: info@fillit.co" width="140" height="34" style="display: block; border: 0; outline: none; width: 140px; height: 34px; color: #ffffff !important; font-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
+                          <img src="https://149092235.fs1.hubspotusercontent-eu1.net/hubfs/149092235/pill-email.png" alt="Email FILLIT at info@fillit.co" width="140" height="34" style="display: block; border: 0; outline: none; width: 140px; height: 34px; color: #ffffff !important; font-size: 13px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;" />
                         </a>
                       </td>
                     </tr>
